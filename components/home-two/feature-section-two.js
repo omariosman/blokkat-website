@@ -15,10 +15,9 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon4.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>Free trial account</h4>
+								<h4>Educational content</h4>
 								<p>
-									a product or service that is offered to customers for free for a short period of
-									time so they can try using it easily.
+									bootcamps, talks, blog articles, and more
 								</p>
 							</div>
 						</div>
@@ -29,11 +28,8 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon5.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>Guided by experts</h4>
-								<p>
-									CryptoExperts SAS is a company founded by internationally recognized industrial &
-									academic researchers.
-								</p>
+								<h4>Technical workshops</h4>
+								<p>online and offline tech workshops</p>
 							</div>
 						</div>
 					</div>
@@ -43,7 +39,7 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon6.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>Affordable plans</h4>
+								<h4>Use-case & trends discussions </h4>
 								<p>
 									If you're ready to invest in some crypto, check out the nexto cheap options that
 									could generate nice returns in 2022.
@@ -57,10 +53,9 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon7.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>24/7 Live support</h4>
+								<h4>Career Guidance & Opportunities</h4>
 								<p>
-									When you need help, our team of experts will work with you via our 24/7 live chat to
-									reach a quick & efficient.
+									present opportunities, help with interview readiness, and career exploration
 								</p>
 							</div>
 						</div>
@@ -71,24 +66,9 @@ export default function FeatureSectionTwo() {
 								<img src="/images/all-img/v2/icon8.png" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
-								<h4>Online wallets</h4>
+								<h4>Event Organization </h4>
 								<p>
-									Best for security because it comes with the strongest security features & track
-									record of any cryptoo online wallet.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-lg-4 col-md-6">
-						<div className="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.50s">
-							<div className="fugu-iconbox-icon3">
-								<img src="/images/all-img/v2/icon9.png" alt="" />
-							</div>
-							<div className="fugu-iconbox-data3">
-								<h4>Multi curency support</h4>
-								<p>
-									Multi-currency support means that shoppers can pay for your products or services
-									using the currency.
+									organize events to spread awareness about web3 and blockchains
 								</p>
 							</div>
 						</div>

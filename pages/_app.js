@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
 		<>
 			<Head>
 				{/* common title */}
-				<title>fugu</title>
+				<title>Blokkat</title>
 			</Head>
 			<Layout>
 				<Component {...pageProps} />

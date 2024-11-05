@@ -15,11 +15,11 @@ export default function HomeTwoHeroSection() {
 					</p>
 					<div className="fugu-hero-btn-wrap wow fadeInUpX" data-wow-delay="0.40s">
 						<Link href="contact" legacyBehavior>
-							<a className="fugu-btn fugu-round-btn active">Get Started</a>
+							<a className="fugu-btn fugu-round-btn active">Join Community</a>
 						</Link>
 
 						<Link href="contact" legacyBehavior>
-							<a className="fugu-btn fugu-round-btn">How to Buy & Sell</a>
+							<a className="fugu-btn fugu-round-btn">Partner with Us</a>
 						</Link>
 					</div>
 				</div>
