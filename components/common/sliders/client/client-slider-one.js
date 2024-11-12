@@ -4,16 +4,16 @@ import Slider from "react-slick";
 export default function ClientSliderOne() {
 	const settings = {
 		infinite: true,
-		slidesToShow: 5,
+		slidesToShow: 3,
 		slidesToScroll: 1,
 		arrows: false,
 		dots: false,
 		autoplay: true,
-		autoplaySpeed: 0,
+		autoplaySpeed: 3000,
 		speed: 10000,
 		cssEase: "linear",
-		pauseOnHover: true,
-		adaptiveHeight: true,
+		pauseOnHover: false,
+		adaptiveHeight: false,
 		responsive: [
 			{
 				breakpoint: 1199,
@@ -39,40 +39,13 @@ export default function ClientSliderOne() {
 		<div className="fugu-client-section bg-gray-800">
 			<div className="container">
 				<div className="fugu-client-title text-white">
-					<h5>Trusted by 1600+ of the world most popular companies</h5>
+					<h5>Together, we build, educate, and innovate. <br></br> Meet our previous partners:</h5>
 				</div>
 				<div className="fugu-client-slider">
 					<Slider {...settings}>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client1.png" alt="" />
-						</div>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client2.png" alt="" />
-						</div>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client3.png" alt="" />
-						</div>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client4.png" alt="" />
-						</div>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client5.png" alt="" />
-						</div>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client1.png" alt="" />
-						</div>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client2.png" alt="" />
-						</div>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client3.png" alt="" />
-						</div>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client4.png" alt="" />
-						</div>
-						<div className="fugu-brand-logo">
-							<img src="/images/all-img/client5.png" alt="" />
-						</div>
+                        <div className="fugu-brand-logo">
+                            <img src="/images/partners/iloveimg-resized/greek-campus.jpg" alt="" />
+                        </div>
 					</Slider>
 				</div>
 			</div>

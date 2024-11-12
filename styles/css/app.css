@@ -4508,7 +4508,7 @@ a.fugu-app-btn:last-child {
 	overflow: hidden;
 	padding: 188px 0 430px;
 	position: relative;
-	background-color: var(--warning-200);
+	background-color: #007dff;
 }
 @media (max-width: 991px) {
 	.fugu-hero-section2 {
@@ -4546,7 +4546,6 @@ a.fugu-app-btn:last-child {
 	height: 100%;
 	z-index: -1;
 	position: absolute;
-	background: linear-gradient(180deg, #724fe5 6.25%, #32e7b1 31.77%, rgba(255, 255, 255, 0) 55.21%);
 	transform: matrix(1, 0, 0, -1, 0, 0);
 	border-radius: 50% 50% 0 0;
 	width: 150vw;

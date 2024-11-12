@@ -6,20 +6,19 @@ export default function HomeTwoHeroSection() {
 		<div className="fugu-hero-section2">
 			<div className="container">
 				<div className="fugu-hero-content fugu-hero-content2">
-					<h1 className="wow fadeInUpX" data-wow-delay="0s">
-						The leading platform for cryptocurrency traders
-					</h1>
+					<h1 className="wow fadeInUpX text-white">Blokkat</h1>
+					<h2 className="wow fadeInUpX text-white" data-wow-delay="0s">
+						An Arabic web3 community
+					</h2>
 					<p className="wow fadeInUpX" data-wow-delay="0.25s">
-						We offer a full-fledged long-term rental platform to cryptocurrency users. It plans to use
-						blockchain technology to ensure a secure seamless rental experience.
 					</p>
 					<div className="fugu-hero-btn-wrap wow fadeInUpX" data-wow-delay="0.40s">
-						<Link href="contact" legacyBehavior>
-							<a className="fugu-btn fugu-round-btn active">Join Community</a>
+						<Link href="https://t.me/+-ihFLoa1zaZlYzc0" legacyBehavior>
+							<a className="fugu-btn fugu-round-btn active" target="_blank">Join Community</a>
 						</Link>
 
-						<Link href="contact" legacyBehavior>
-							<a className="fugu-btn fugu-round-btn">Partner with Us</a>
+						<Link href="https://linktr.ee/blokkat" legacyBehavior>
+							<a className="fugu-btn fugu-round-btn" target="_blank">Contact Us</a>
 						</Link>
 					</div>
 				</div>

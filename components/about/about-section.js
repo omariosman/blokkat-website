@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-export default function AboutSection() {
+export default function AboutSection({ title }) {
 	return (
 		<div className="fugu-about-section">
 			<div className="container">
@@ -25,7 +25,7 @@ export default function AboutSection() {
 					</div>
 					<div className="col-xl-5 col-lg-6 col-md-11 d-flex align-items-center">
 						<div className="fugu-default-content">
-							<h2>The story behind our companys beginnings and our mission</h2>
+							<h2>{title}</h2>
 							<p>
 								Mthemeus was founded in 2016, and we have accomplished so much over the years. To create
 								the solution your business. In the digital world, an impactful first impression for you

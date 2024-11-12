@@ -12,7 +12,7 @@ export default function Home() {
 			</Head>
 			<HeroSection />
 			<ClientSliderOne />
-			<FeatureSectionTwo />
+			<FeatureSectionTwo title="What we do?"/>
 			<FaqAccordionOne />
 		</>
 	);

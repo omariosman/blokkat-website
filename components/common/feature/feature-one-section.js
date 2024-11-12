@@ -7,7 +7,7 @@ export default function FeatureOneSection() {
 		<div className="section bg-warning-200 fugu-section-padding3">
 			<div className="container">
 				<div className="fugu-section-title">
-					<h2>Secure solutions for your digital and money</h2>
+					<h2>Our Values</h2>
 				</div>
 				<div className="row">
 					<div className="col-lg-4 col-md-6">
