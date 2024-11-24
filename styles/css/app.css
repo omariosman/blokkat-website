@@ -2356,11 +2356,11 @@ header.fugu-header-section.sticky-menu {
 }
 
 .site-menu-main .nav-link-item {
-	color: var(--gray-800);
+	color: var(--gray-10);
 }
 
 .nexto-header-two .site-menu-main .nav-link-item {
-	color: var(--gray-800);
+	color: var(--gray-10);
 }
 .nexto-header-two.site-header .mobile-menu-trigger span {
 	background-color: var(--gray-800);

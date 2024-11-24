@@ -16,7 +16,7 @@
 			<>
 				<Head>
 					{/* common title */}
-					<title>Blokkat | بلوكات</title>
+					<title>Blokkat</title>
 				</Head>
 				<Layout>
 					<Component {...pageProps} />

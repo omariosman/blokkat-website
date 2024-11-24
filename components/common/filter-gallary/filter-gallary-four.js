@@ -42,6 +42,7 @@ export default function FilterGallaryFour() {
 	return (
 		<div className="section fugu-section-padding">
 			<div className="container">
+				<h1 className="text-center">Gallery</h1>
 				<div className="fugu-gallery-menu">
 					<ul id="watch-filter-gallery" className="option-set clear-both" data-option-key="filter">
 						<li onClick={handleFilterKeyChange("*")} className={handleActiveClass("*")}>
@@ -77,10 +78,10 @@ export default function FilterGallaryFour() {
 										have suffered alteration in some form, by injected humour, or randomised words
 										which don't look even slightly believable.
 									</p>
-									<Link href={"single-portfolio"} legacyBehavior>
-										<a className="fugu-icon-btn">
-											Discover More <img src="/images/svg/arrow-black-right.svg" alt="" />
-										</a>
+									<Link href={"single-portfolio"} className="fugu-icon-btn" legacyBehavior>
+										
+											Discover More 
+									
 									</Link>
 								</div>
 							</div>
@@ -101,9 +102,9 @@ export default function FilterGallaryFour() {
 										have suffered alteration in some form.
 									</p>
 									<Link href={"single-portfolio"} legacyBehavior>
-										<a className="fugu-icon-btn">
-											Discover More <img src="/images/svg/arrow-black-right.svg" alt="" />
-										</a>
+										
+											Discover More
+									
 									</Link>
 								</div>
 							</div>
@@ -124,9 +125,9 @@ export default function FilterGallaryFour() {
 										have suffered alteration in some form.
 									</p>
 									<Link href={"single-portfolio"} legacyBehavior>
-										<a className="fugu-icon-btn">
-											Discover More <img src="/images/svg/arrow-black-right.svg" alt="" />
-										</a>
+									
+											Discover More 
+									
 									</Link>
 								</div>
 							</div>
@@ -148,9 +149,9 @@ export default function FilterGallaryFour() {
 										which don't look even slightly believable.
 									</p>
 									<Link href={"single-portfolio"} legacyBehavior>
-										<a className="fugu-icon-btn">
-											Discover More <img src="/images/svg/arrow-black-right.svg" alt="" />
-										</a>
+										
+											Discover More
+									
 									</Link>
 								</div>
 							</div>
@@ -158,8 +159,7 @@ export default function FilterGallaryFour() {
 					</div>
 				</div>
 				<div className="fugu-portfolio-btn">
-					<Link href="#">
-						<a className="fugu-btn small-btn">View All</a>
+					<Link href="#" className="fugu-btn small-btn"> View All
 					</Link>
 				</div>
 			</div>

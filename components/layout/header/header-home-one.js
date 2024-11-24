@@ -8,6 +8,7 @@ import {
 	PagesDropdownMenus,
 } from "../navbar/menu-data";
 import NavItem from "../navbar/nav-item";
+import CustomNavItem from "../navbar/custom-nav-item";
 import Navbar from "../navbar/navbar";
 import useScroll from "./../../../hooks/useScroll";
 
@@ -34,7 +35,7 @@ export default function HeaderHomeOne() {
 						</Link>
 					</div>
 					{
-					/*
+					
 					<div className="menu-block-wrapper">
 						<div
 							className={`menu-overlay ${isMobileMenuOpen ? "active" : ""}`}
@@ -47,6 +48,11 @@ export default function HeaderHomeOne() {
 								</div>
 							</div>
 							{
+							<Navbar className="blokkat-navbar">
+								<CustomNavItem navItemText="Home" path="/" />
+								<CustomNavItem navItemText="About Us" path="/about-us" />
+							</Navbar>
+							/*
 							<Navbar>
 								
 								
@@ -56,12 +62,13 @@ export default function HeaderHomeOne() {
 								<NavItem navItemText="Blog" menuItems={BlogDropdownMenus} />
 								<NavItem navItemText="Contact Us" menuItems={ContactDropdownMenus} />
 								
-								
-								</Navbar>
-}
+
+							</Navbar>
+							*/
+							}
 						</nav>
 					</div>
-					*/
+					
 					}
 					<div className="mobile-menu-trigger" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
 						<span></span>

@@ -1,28 +1,29 @@
 import Head from "next/head";
 import AboutSection from "../components/about/about-section";
 import Breadcrumb from "../components/about/breadcrumb";
-import TeamSection from "../components/about/team-section";
-import CounterOneSection from "../components/common/counter/counter-one-section";
-import FaqSection from "../components/common/faq/faq-section";
+import TeamSection from "../components/team/team-section";
 import FeatureOneSection from "../components/common/feature/feature-one-section";
-import ClientSliderTwo from "./../components/common/sliders/client/client-slider-two";
 import FeatureSectionTwo from "../components/home-two/feature-section-two";
-
+import FaqAccordionOne from "../components/common/faq/faq-accordion-one";
+import ContactFormSection from "../components/contact/contact-form-section";
+import dynamic from "next/dynamic";
+const FilterGallaryFour = dynamic(() => import("./../components/common/filter-gallary/filter-gallary-four"), {
+	ssr: false,
+});
 export default function AboutUs() {
 	return (
 		<>
 			<Head>
-				<title>fugu - about us</title>
+				<title>Blokkat</title>
 			</Head>
 			<Breadcrumb />
 			<AboutSection title="Our story" />
 			<AboutSection title="Our vision" />
 			<FeatureOneSection />
 			<FeatureSectionTwo title="What we do?"/>
-			<CounterOneSection />
 			<TeamSection />
-			<FaqSection />
-			<ClientSliderTwo />
+			<FaqAccordionOne />
+			<ContactFormSection />
 		</>
 	);
 }
