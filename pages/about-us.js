@@ -18,7 +18,7 @@ export default function AboutUs() {
 			<AboutSection title="Our story" />
 			<AboutSection title="Our vision" />
 			<FeatureOneSection />
-			<FeatureSectionTwo />
+			<FeatureSectionTwo title="What we do?"/>
 			<CounterOneSection />
 			<TeamSection />
 			<FaqSection />

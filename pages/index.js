@@ -8,10 +8,10 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Blokkat</title>
+				<title>Blokkat | بلوكات</title>
 			</Head>
 			<HeroSection />
-			<ClientSliderOne />
+			{/*<ClientSliderOne />*/ }
 			<FeatureSectionTwo title="What we do?"/>
 			<FaqAccordionOne />
 		</>

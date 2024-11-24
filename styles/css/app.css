@@ -25,6 +25,7 @@
 	--fs-xs-lineheight: 22px;
 	--fs-xss-12: 12px;
 	--fs-xss-lineheight: 20px;
+	--blokkat-branding: #007dff;
 }
 
 *,
@@ -2345,6 +2346,7 @@ header.fugu-header-section {
 	top: 0;
 	padding: 13px 0;
 	transition: all 0.4s;
+	background-color: var(--blokkat-branding);
 }
 
 header.fugu-header-section.sticky-menu {
@@ -6870,7 +6872,7 @@ a.fugu-faq-btn:hover {
 }
 .fugu-social-icon ul li a:hover {
 	color: var(--gray-800);
-	background-color: var(--warning-500);
+	background-color: var(--blokkat-branding);
 }
 .fugu-social-icon ul li a path {
 	fill: var(--gray-10);
@@ -8206,7 +8208,7 @@ a.fugu-pricing-btn.active {
 	height: 40px;
 	border-radius: 3px;
 	position: absolute;
-	background-color: var(--warning-500);
+	background-color: var(--blokkat-branding);
 	transform: translate(-50%, -50%);
 }
 .fugu-go-top img {
@@ -11154,7 +11156,7 @@ button#fugu-input-submit:hover {
 
 circle {
 	fill: none;
-	stroke: #9440f5;
+	stroke: #007DFF;
 	stroke-width: 8px;
 	stroke-dasharray: 300;
 	animation: outline 2s cubic-bezier(0.77, 0, 0.18, 1) infinite;
@@ -11535,4 +11537,14 @@ circle {
 .fugu-testimonial-slider .slick-initialized .slick-slide,
 .fugu-testimonial-slider2 .slick-initialized .slick-slide {
 	padding: 0 15px;
+}
+
+.blokkat-social-icon {
+	color: #007dff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.blokkat-social-icon:hover {
+    color: #007dff;
 }

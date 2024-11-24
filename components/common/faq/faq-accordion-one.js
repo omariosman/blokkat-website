@@ -42,7 +42,7 @@ export default function FaqAccordionOne() {
 										If you want to learn more about blockchain technology, upskill yourself technically, want to engage in discussions about interesting web3 projects, want to learn about blockchain use cases in business, seek guidance in web3 career, want to get exposed to opportunities, want to network with others, or just want to make friends, you’d want to join Blokkat!
 									</Accordion.Body>
 								</Accordion.Item>
-								<Accordion.Item eventKey="4">
+								<Accordion.Item eventKey="5">
 									<Accordion.Header>How can I contribute to Blokkat?</Accordion.Header>
 									<Accordion.Body>
 										We are always seeking volunteers and welcome contributors who want to assist technically, with designs, with business development, social media, just to name a few. Reach out to us, we already have some vacancies.
