@@ -8,15 +8,15 @@ export default function ProjectDetailsSection() {
 			</p>
 			<ul>
 				<li>
-					<span>Client:</span>
-					Adam Smith
+					<span>Country:</span>
+					Egypt
 				</li>
 				<li>
-					<span>Category:</span>
-					Digital Art
+					<span>City:</span>
+					Cairo
 				</li>
 				<li>
-					<span>Duration:</span>1 Week
+					<span>Date:</span>Feb 3, 2024
 				</li>
 				<li>
 					<span>Website Link:</span>

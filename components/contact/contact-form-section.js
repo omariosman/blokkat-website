@@ -29,7 +29,7 @@ export default function ContactFormSection() {
 												<img src="/images/social/call.svg" alt="" />
 											</div>
 											<h5>Call us</h5>
-											<p>+088-234-6534-563</p>
+											<p>+201147727919</p>
 										</Link>
 									</li>
 									<li>
@@ -38,7 +38,7 @@ export default function ContactFormSection() {
 												<img src="/images/social/email.svg" alt="" />
 											</div>
 											<h5>Email us</h5>
-											<p>example@gmail.com</p>
+											<p>blokkat.blockchain.ed@gmail.com</p>
 										</Link>
 									</li>
 									<li>
@@ -47,7 +47,7 @@ export default function ContactFormSection() {
 												<img src="/images/social/map.svg" alt="" />
 											</div>
 											<h5>Office address</h5>
-											<p>4132 Thornridge City, New York.</p>
+											<p>Cairo, Egypt.</p>
 										</Link>
 									</li>
 								</ul>

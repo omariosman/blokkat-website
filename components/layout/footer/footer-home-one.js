@@ -24,7 +24,7 @@ export default function FooterHomeOne() {
 							<span>Contact</span>
 							<ul>
 								<li>
-									<Link href="mailto:name@email.com">blokkat.blockchain.ed@gmail.com </Link>
+									<Link href="mailto:blokkat.blockchain.ed@gmail.com">blokkat.blockchain.ed@gmail.com</Link>
 								</li>
 							</ul>
 						</div>

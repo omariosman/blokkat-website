@@ -5,7 +5,7 @@ export default function FaqAccordionOne() {
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-4">
-						<div className="fugu--default-content content-black">
+						<div className="fugu--default-content content-white">
 							<h2>Frequently asked questions</h2>
 						</div>
 					</div>
@@ -49,7 +49,6 @@ export default function FaqAccordionOne() {
 									</Accordion.Body>
 								</Accordion.Item>
 							</Accordion>
-							
 						</div>
 					</div>
 				</div>

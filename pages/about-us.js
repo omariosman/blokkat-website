@@ -1,5 +1,6 @@
 import Head from "next/head";
 import AboutSection from "../components/about/about-section";
+import VisionSection from "../components/about/vision-section";
 import Breadcrumb from "../components/about/breadcrumb";
 import TeamSection from "../components/team/team-section";
 import FeatureOneSection from "../components/common/feature/feature-one-section";
@@ -18,7 +19,7 @@ export default function AboutUs() {
 			</Head>
 			<Breadcrumb />
 			<AboutSection title="Our story" />
-			<AboutSection title="Our vision" />
+			<VisionSection title="Our vision" />
 			<FeatureOneSection />
 			<FeatureSectionTwo title="What we do?"/>
 			<TeamSection />

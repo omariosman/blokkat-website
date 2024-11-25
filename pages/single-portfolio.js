@@ -3,7 +3,7 @@ import BreadcrumbOne from "./../components/common/breadcrumb/breadcrumb-one";
 export default function SinglePortFolio() {
 	return (
 		<>
-			<BreadcrumbOne title="Artwork wall printing" />
+			<BreadcrumbOne title="Event Details" />
 			<SectionOne />
 		</>
 	);

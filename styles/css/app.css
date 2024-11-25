@@ -2340,17 +2340,18 @@ blockquote {
 
 /*1.1 layout css*/
 header.fugu-header-section {
+	height: 120px;
 	position: fixed;
 	z-index: 9;
 	width: 100%;
 	top: 0;
-	padding: 13px 0;
+	padding: 0;
 	transition: all 0.4s;
 	background-color: var(--blokkat-branding);
 }
 
 header.fugu-header-section.sticky-menu {
-	padding: 10px 0;
+	padding: 0;
 	background-color: #fff;
 	box-shadow: 0 4px 80px rgba(0, 0, 0, 0.06);
 }
@@ -2507,7 +2508,7 @@ footer.fugu-footer-section {
 .fugu-footer-menu ul li a:hover {
 	opacity: 1;
 	padding-left: 10px;
-	color: var(--warning-500);
+	color: var(--blokkat-branding);
 }
 
 footer.fugu-foote2-section {
@@ -5366,6 +5367,7 @@ a.fugu-app-btn:last-child {
 	transform: scale(1.07) rotate(2deg);
 }
 .fugu-team-data {
+	opacity: 0.8;
 	bottom: 20px;
 	padding: 20px;
 	margin-left: 20px;
@@ -5735,12 +5737,14 @@ a.fugu-app-btn:last-child {
 }
 
 .fugu-iconbox-wrap2 {
+	min-height: 461px;
 	padding: 30px;
 	border-radius: 10px;
 	margin-bottom: 24px;
 	background-color: var(--warning-100);
 }
 .fugu-iconbox-icon2 {
+	text-align: center;
 	margin-bottom: 25px;
 }
 
@@ -6159,7 +6163,8 @@ a.fugu-faq-btn:hover {
 }
 
 .fugu--faq-section {
-	background-color: var(--warning-600);
+	color: var(--gray-10);
+	background-color: var(--blokkat-branding);
 }
 .fugu--faq-section .fugu--default-content {
 	margin-right: 20px;
@@ -6177,6 +6182,7 @@ a.fugu-faq-btn:hover {
 }
 
 .fugu--accordion-one .accordion-item {
+	color: var(--gray-10);
 	border: none;
 	background-color: transparent;
 	border-bottom: 2px solid var(--gray-800);
@@ -6187,7 +6193,7 @@ a.fugu-faq-btn:hover {
 	font-size: 24px;
 	line-height: 1;
 	font-family: "Inter", sans-serif;
-	color: var(--gray-800);
+	color: var(--gray-10);
 	background-color: transparent;
 }
 @media (max-width: 767px) {
@@ -6210,7 +6216,7 @@ a.fugu-faq-btn:hover {
 .fugu--accordion-one .accordion-body {
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(19, 17, 26, 0.8);
+	color: var(--gray-10);
 	padding: 0 220px 25px 0;
 }
 @media (max-width: 1199px) {
@@ -6220,7 +6226,7 @@ a.fugu-faq-btn:hover {
 }
 .fugu--accordion-one.accordion-two .accordion-item {
 	background-color: transparent;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid #FFF;
 }
 .fugu--accordion-one.accordion-two .accordion-button {
 	color: white;
@@ -6233,6 +6239,7 @@ a.fugu-faq-btn:hover {
 	background-size: 20px;
 	position: absolute;
 	background-image: url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 2L10 10L18 2' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+	background-color: #FFF;
 }
 .fugu--accordion-one.accordion-two .accordion-button:not(.collapsed)::after {
 	top: 17px;
@@ -11547,4 +11554,8 @@ circle {
 
 .blokkat-social-icon:hover {
     color: #007dff;
+}
+
+.images-holder {
+	text-align: center;
 }

@@ -51,6 +51,7 @@ export default function HeaderHomeOne() {
 							<Navbar className="blokkat-navbar">
 								<CustomNavItem navItemText="Home" path="/" />
 								<CustomNavItem navItemText="About Us" path="/about-us" />
+								<CustomNavItem navItemText="Events Gallery" path="/events-gallery" />
 							</Navbar>
 							/*
 							<Navbar>
