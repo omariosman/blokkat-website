@@ -9,8 +9,33 @@ export default function ContactFormSection() {
 		watch,
 		formState: { errors },
 	} = useForm();
-	const onSubmit = (data) => console.log(data);
-	return (
+	const onSubmit = async (data) => {
+		try {
+			const response = await fetch("http://localhost:3001/api/send-mail", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify({
+					senderEmail: data.email,
+					senderName: data.name,
+					text: data.comment || "Hello I wanna join Blokkat",
+				}),
+			});
+	
+			if (!response.ok) {
+				throw new Error(`Error: ${response.statusText}`);
+			}
+	
+			const result = await response.json();
+			console.log("Email sent successfully:", result);
+			alert("Message sent successfully!");
+		} catch (error) {
+			console.error("Error sending email:", error);
+			alert("Failed to send the message. Please try again.");
+		}
+	};
+		return (
 		<div className="section fugu-section-padding">
 			<div className="container">
 				<div className="row">
