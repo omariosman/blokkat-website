@@ -23,6 +23,7 @@
 		"react-countdown": "^2.3.3",
 		"react-countup": "^6.3.2",
 		"react-dom": "18.2.0",
+		"react-hcaptcha": "^0.1.1",
 		"react-hook-form": "^7.39.1",
 		"react-modal-video": "1.2.8",
 		"react-slick": "^0.29.0",

@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+import React, { useState } from "react";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
+import HCaptcha from "react-hcaptcha";
 
 export default function ContactFormSection() {
 	const {
@@ -9,7 +11,13 @@ export default function ContactFormSection() {
 		watch,
 		formState: { errors },
 	} = useForm();
+	const [captchaToken, setCaptchaToken] = useState("");
+
 	const onSubmit = async (data) => {
+		if (!captchaToken) {
+			alert("Please complete the CAPTCHA.");
+			return;
+		}
 		try {
 			const response = await fetch("http://localhost:3001/api/send-mail", {
 				method: "POST",
@@ -20,6 +28,7 @@ export default function ContactFormSection() {
 					senderEmail: data.email,
 					senderName: data.name,
 					text: data.comment || "Hello I wanna join Blokkat",
+					captchaToken
 				}),
 			});
 	
@@ -118,6 +127,10 @@ export default function ContactFormSection() {
 										{...register("comment")}
 									></textarea>
 								</div>
+								<HCaptcha
+								sitekey="2c264efe-a4c2-4498-a1d2-8f18788ebb52"
+								onVerify={(token) => setCaptchaToken(token)}
+							/>
 								<button id="fugu-input-submit" type="submit">
 									Send Message
 								</button>
