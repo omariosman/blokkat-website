@@ -46,7 +46,7 @@ export default function FilterGallaryFour() {
 				<div className="fugu-gallery-menu">
 					<ul id="watch-filter-gallery" className="option-set clear-both" data-option-key="filter">
 						<li onClick={handleFilterKeyChange("*")} className={handleActiveClass("*")}>
-							All Projects (35)
+							All Projects (5)
 						</li>
 						<li onClick={handleFilterKeyChange("branding")} className={handleActiveClass("branding")}>
 							Branding (10)
@@ -67,21 +67,17 @@ export default function FilterGallaryFour() {
 						<div className="row">
 							<div className="col-lg-12">
 								<div className="fugu-gallery-thumb">
-									<img src="/images/all-img/portfolio/p3/p1.png" alt="" />
+									<img src="/images/events/1.png" alt="" />
 								</div>
 							</div>
 							<div className="col-lg-9">
 								<div className="fugu-gallery-data3">
-									<h4>Artwork wall printing</h4>
+									<h4>0xCairo Tech Day II (2nd Edition)</h4>
 									<p>
-										There are many variations of passages of Lorem Ipsum available, but the majority
-										have suffered alteration in some form, by injected humour, or randomised words
-										which don't look even slightly believable.
+										0xCairo Tech Day 2nd Edition brought together students, developers, and enthusiasts for a transformative journey from Web2 to Web3.  Attendees explored topics like smart contracts, Web3 integration, testing, and blockchain security while connecting with professionals. The event featured two introductory, expert-led talks, followed by a full day of hands-on skill-building workshops. With a lunch break to recharge and invaluable networking opportunities to connect with peers and industry professionals, the day offered a perfect blend of learning and community building.
 									</p>
 									<Link href={"single-portfolio"} className="fugu-icon-btn" legacyBehavior>
-										
-											Discover More 
-									
+										Discover More
 									</Link>
 								</div>
 							</div>
