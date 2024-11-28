@@ -11559,3 +11559,7 @@ circle {
 .images-holder {
 	text-align: center;
 }
+
+.hcaptcha-wrapper {
+	margin-bottom: 20px;
+  }

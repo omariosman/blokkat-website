@@ -87,7 +87,7 @@ export default function FilterGallaryFour() {
 						<div className="row">
 							<div className="col-lg-7">
 								<div className="fugu-gallery-thumb">
-									<img src="/images/all-img/portfolio/p3/p2.png" alt="" />
+									<img src="/images/events/1.png" alt="" />
 								</div>
 							</div>
 							<div className="col-lg-5 d-flex align-items-center">

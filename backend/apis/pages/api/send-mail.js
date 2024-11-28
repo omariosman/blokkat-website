@@ -5,7 +5,19 @@ export default (request, response) => {
 
 const TOKEN = "";
 
-const { senderEmail, senderName, text } = request.body;
+const { senderEmail, senderName, text, captchaToken } = request.body;
+
+  // Verify CAPTCHA
+  const captchaResponse = await fetch("https://hcaptcha.com/siteverify", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: `secret=ES_5b1b988d1bca43a59cc029c446f27030&response=${captchaToken}`,
+  });
+  const captchaResult = await captchaResponse.json();
+
+  if (!captchaResult.success) {
+    return response.status(400).send({ error: "CAPTCHA validation failed" });
+  }
 
 const client = new MailtrapClient({
   token: TOKEN,

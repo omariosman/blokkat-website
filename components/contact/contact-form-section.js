@@ -130,6 +130,7 @@ export default function ContactFormSection() {
 								<HCaptcha
 								sitekey="2c264efe-a4c2-4498-a1d2-8f18788ebb52"
 								onVerify={(token) => setCaptchaToken(token)}
+								className="hcaptcha-wrapper"
 							/>
 								<button id="fugu-input-submit" type="submit">
 									Send Message
