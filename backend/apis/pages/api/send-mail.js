@@ -1,57 +1,77 @@
-
 const { MailtrapClient } = require("mailtrap");
 
-export default (request, response) => {
+const handler = async(request, response) => {
 
-const TOKEN = "";
-
-const { senderEmail, senderName, text, captchaToken } = request.body;
+  const { senderEmail, senderName, subject, text, category, captchaToken } = request.body;
+  const HCAPTCHA_SECRET = process.env.HCAPTCHA_SECRET;
 
   // Verify CAPTCHA
   const captchaResponse = await fetch("https://hcaptcha.com/siteverify", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: `secret=ES_5b1b988d1bca43a59cc029c446f27030&response=${captchaToken}`,
+    body: `secret=${HCAPTCHA_SECRET}&response=${captchaToken}`,
   });
+
   const captchaResult = await captchaResponse.json();
 
   if (!captchaResult.success) {
     return response.status(400).send({ error: "CAPTCHA validation failed" });
   }
 
+const TOKEN = process.env.MAILTRAP_TOKEN;
 const client = new MailtrapClient({
   token: TOKEN,
-  testInboxId: 3304017,
 });
 
 const sender = {
-  email: senderEmail,
-  name: "Contact us",
+  email: "noreply@blokkat.xyz",
+  name: senderName,
 };
+
 const recipients = [
+  {
+    email: "omarosman23@aucegypt.edu",
+  },
+  {
+    email: "kareemikassab@aucegypt.edu",
+  },
+  {
+    email: "blokkat.blockchain.ed@gmail.com",
+  },
   {
     email: "omarosman232000@gmail.com",
   },
   {
-    email: "blokkat.blockchain.ed@gmail.com",
-  }
+    email: senderEmail,
+  },
 ];
 
-client.testing
-  .send({
-    from: sender,
-    to: recipients,
-    subject: `Contact us from website blokkat: ${senderName}`,
-    text: text,
-    category: "Contact us",
-  })
-  .then(console.log, console.error);
+console.log(`sendersendersender: ${JSON.stringify(sender, null, 2)}`)
 
+client
+.send({
+  from: sender,
+  to: recipients,
+  subject: subject || "Contact Form Submission",
+  text: text || "No message provided.",
+  category: category || "Contact Form"})
+.then(() => {
   response.send({
-    data: 'mail sent',
+    data: "Mail sent successfully",
   });
+})
+.catch((error) => {
+  console.error(error);
+  response.status(500).send({
+    error: "Failed to send email",
+  });
+});
 
-
+response.send({
+  data: 'Mail sent successfully',
+});
 }
-   
 
+export default handler;
+
+   
