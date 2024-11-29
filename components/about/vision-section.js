@@ -5,22 +5,14 @@ export default function VisionSection({ title }) {
 		<div className="fugu-about-section">
 			<div className="container">
 				<div className="row">
-					<div className="col-xl-7 col-lg-6 images-holder">
+					<div className="col-xl-6 col-lg-6 images-holder">
 						<div className="fugu-about-thumb">
 							<img
 								className="wow fadeInLeft"
 								data-wow-delay=".10s"
-								src="/images/about-us/2.jpeg"
+								src="/images/logo/logo-black.svg"
 								alt=""
 							/>
-							<div className="fugu-about-thumb2">
-								<img
-									className="wow fadeInUpX"
-									data-wow-delay=".30s"
-									src="/images/about-us/1.jpg"
-									alt=""
-								/>
-							</div>
 						</div>
 					</div>
 					<div className="col-xl-5 col-lg-6 col-md-11 d-flex align-items-center">
