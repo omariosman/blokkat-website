@@ -1,13 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 
-export default function ProjectAboutSection() {
+export default function ProjectAboutSection({ about }) {
 	return (
 		<div className="fugu-gallery-data4">
-			<h2>About the project:</h2>
+			<h2>Event overview:</h2>
 			<p>
-				There are many variations of passages of Lorem Ipsum available, but the majority have suf alteration in
-				some form, by injected humour, or randomised words which dont look even slightly believable. If a you
-				are going to use a passage of Lorem Ipsum, you need to bee ther anything embarrassing.
+				{ about }
 			</p>
 		</div>
 	);

@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 
-export default function ProjectThumbSection() {
+export default function ProjectThumbSection({ image }) {
 	return (
 		<div className="fugu-gallery-thumb wow fadeInUpX">
-			<img src="/images/all-img/portfolio/p3/p1.png" alt="" />
+			<img src={image} alt="" />
 		</div>
 	);
 }

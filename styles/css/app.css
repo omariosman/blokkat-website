@@ -11562,4 +11562,13 @@ circle {
 
 .hcaptcha-wrapper {
 	margin-bottom: 20px;
-  }
+}
+
+.fugu-gallery-data4 ul {
+	list-style: none;
+	padding: 0;
+}
+  
+.fugu-gallery-data4 li {
+	margin-bottom: 10px; /* Adds space between items */
+}

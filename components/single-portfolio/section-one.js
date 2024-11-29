@@ -20,7 +20,6 @@ export default function SectionOne() {
 							<ProjectExecutionSection />
 						</div>
 					</div>
-					<RelatedProjectSection />
 				</div>
 			</div>
 		</div>
