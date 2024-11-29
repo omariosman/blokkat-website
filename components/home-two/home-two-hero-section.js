@@ -23,12 +23,6 @@ export default function HomeTwoHeroSection() {
 					</div>
 				</div>
 			</div>
-			<div className="fugu-shape4">
-				<img src="/images/shape/shape3.png" alt="" />
-			</div>
-			<div className="fugu-shape5">
-				<img src="/images/shape/shape4.png" alt="" />
-			</div>
 		</div>
 	);
 }
