@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useForm } from "react-hook-form";
 import HCaptcha from "react-hcaptcha";
 
-const BASE_ENDPOINT = "https://blokkat-website-backend-qjtl6txbh-omar-osmans-projects.vercel.app";
+const BASE_ENDPOINT = "https://blokkat-website-backend-515zy5ou2-omar-osmans-projects.vercel.app";
 
 export default function ContactFormSection() {
 	const {

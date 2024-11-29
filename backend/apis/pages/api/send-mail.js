@@ -86,5 +86,5 @@ const recipients = [
   });
 }
 
-module.exports = allowCors(handler)
+export default allowCors(handler);
    
