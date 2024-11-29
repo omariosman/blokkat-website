@@ -16,17 +16,17 @@ const handler = async(request, response) => {
   const HCAPTCHA_SECRET = process.env.HCAPTCHA_SECRET;
 
   // Verify CAPTCHA
-  const captchaResponse = await fetch("https://hcaptcha.com/siteverify", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: `secret=${HCAPTCHA_SECRET}&response=${captchaToken}`,
-  });
+  // const captchaResponse = await fetch("https://hcaptcha.com/siteverify", {
+  //   method: "POST",
+  //   headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //   body: `secret=${HCAPTCHA_SECRET}&response=${captchaToken}`,
+  // });
 
-  const captchaResult = await captchaResponse.json();
+  // const captchaResult = await captchaResponse.json();
 
-  if (!captchaResult.success) {
-    return response.status(400).send({ error: "CAPTCHA validation failed" });
-  }
+  // if (!captchaResult.success) {
+  //   return response.status(400).send({ error: "CAPTCHA validation failed" });
+  // }
 
 const TOKEN = process.env.MAILTRAP_TOKEN;
 const client = new MailtrapClient({
