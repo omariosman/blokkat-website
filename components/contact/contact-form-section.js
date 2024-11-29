@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useForm } from "react-hook-form";
 import HCaptcha from "react-hcaptcha";
 
+const BASE_ENDPOINT = "https://blokkat-website-backend-cbw2vjbhp-omar-osmans-projects.vercel.app";
+
 export default function ContactFormSection() {
 	const {
 		register,
@@ -19,7 +21,8 @@ export default function ContactFormSection() {
 			return;
 		}
 		try {
-			const response = await fetch("https://blokkt-website-backend.vercel.app/api/send-mail", {
+			const resourceName = "send-mail";
+			const response = await fetch(`${BASE_ENDPOINT}/api/${resourceName}`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
