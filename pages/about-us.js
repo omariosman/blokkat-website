@@ -24,7 +24,7 @@ export default function AboutUs() {
 			<FeatureSectionTwo title="What we do?"/>
 			<TeamSection />
 			<FaqAccordionOne />
-			<ContactFormSection />
-		</>
+			<ContactFormSection id="contact-us" />
+			</>
 	);
 }

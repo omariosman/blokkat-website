@@ -134,7 +134,7 @@ export default function TeamSection() {
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="fugu-team-wrap wow fadeInUpX wrap2" data-wow-delay=".70s">
 							<h4>Are you interested in working with us?</h4>
-							<Link href={"#"} className="fugu-btn small-btn">Join us</Link>
+							<Link href="/contact" className="fugu-btn small-btn">Join us</Link>
 						</div>
 					</div>
 				</div>
