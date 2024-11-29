@@ -40,7 +40,7 @@ const handler = async(request, response) => {
   });
 
   const sender = {
-    email: "noreply@blokkat.xyz",
+    email: "contact@blokkat.xyz",
     name: senderName,
   };
 
