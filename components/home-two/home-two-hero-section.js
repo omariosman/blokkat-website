@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TextSliderOne from "../common/sliders/text/text-slider-one";
 
 /* eslint-disable @next/next/no-img-element */
 export default function HomeTwoHeroSection() {
@@ -6,8 +7,8 @@ export default function HomeTwoHeroSection() {
 		<div className="fugu-hero-section2">
 			<div className="container">
 				<div className="fugu-hero-content fugu-hero-content2">
-					<h1 className="wow fadeInUpX text-white">Blokkat | بلوكات</h1>
-					<h2 className="wow fadeInUpX text-white" data-wow-delay="0s">
+					<h1 className="wow fadeInUpX hero-text">Blokkat | بلوكات</h1>
+					<h2 className="wow fadeInUpX hero-text" data-wow-delay="0s">
 						An Arabic web3 community
 					</h2>
 					<p className="wow fadeInUpX" data-wow-delay="0.25s">
@@ -22,7 +23,9 @@ export default function HomeTwoHeroSection() {
 						</Link>
 					</div>
 				</div>
+				
 			</div>
+			<TextSliderOne />
 		</div>
 	);
 }

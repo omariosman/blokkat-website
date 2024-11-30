@@ -12,7 +12,7 @@ export default function FeatureSectionTwo({ title }) {
 					<div className="col-lg-4 col-md-6">
 						<div className="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0s">
 							<div className="fugu-iconbox-icon3">
-								<img src="/images/all-img/v2/10.svg" alt="" />
+								<img src="/images/all-img/cats-icons/10.svg" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
 								<h4>Educational content</h4>
@@ -25,7 +25,7 @@ export default function FeatureSectionTwo({ title }) {
 					<div className="col-lg-4 col-md-6">
 						<div className="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.10s">
 							<div className="fugu-iconbox-icon3">
-								<img src="/images/all-img/v2/14.svg" alt="" />
+								<img src="/images/all-img/cats-icons/14.svg" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
 								<h4>Technical workshops</h4>
@@ -36,7 +36,7 @@ export default function FeatureSectionTwo({ title }) {
 					<div className="col-lg-4 col-md-6">
 						<div className="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.20s">
 							<div className="fugu-iconbox-icon3">
-								<img src="/images/all-img/v2/8.svg" alt="" />
+								<img src="/images/all-img/cats-icons/8.svg" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
 								<h4>Use-case & trends discussions </h4>
@@ -49,7 +49,7 @@ export default function FeatureSectionTwo({ title }) {
 					<div className="col-lg-6 col-md-6">
 						<div className="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.30s">
 							<div className="fugu-iconbox-icon3">
-								<img src="/images/all-img/v2/1.svg" alt="" />
+								<img src="/images/all-img/cats-icons/1.svg" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
 								<h4>Career Guidance & Opportunities</h4>
@@ -62,7 +62,7 @@ export default function FeatureSectionTwo({ title }) {
 					<div className="col-lg-6 col-md-6">
 						<div className="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.40s">
 							<div className="fugu-iconbox-icon3">
-								<img src="/images/all-img/v2/4.svg" alt="" />
+								<img src="/images/all-img/cats-icons/4.svg" alt="" />
 							</div>
 							<div className="fugu-iconbox-data3">
 								<h4>Event Organization </h4>

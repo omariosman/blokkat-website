@@ -42,23 +42,11 @@ export default function FilterGallaryFour() {
 	return (
 		<div className="section fugu-section-padding">
 			<div className="container">
-				<h1 className="text-center">Gallery</h1>
+				<h2 className="text-center">Explore our Previous Events</h2>
 				<div className="fugu-gallery-menu">
 					<ul id="watch-filter-gallery" className="option-set clear-both" data-option-key="filter">
 						<li onClick={handleFilterKeyChange("*")} className={handleActiveClass("*")}>
 							All Events (5)
-						</li>
-						<li onClick={handleFilterKeyChange("branding")} className={handleActiveClass("branding")}>
-							On Ground (10)
-						</li>
-						<li onClick={handleFilterKeyChange("commercial")} className={handleActiveClass("commercial")}>
-							Online (08)
-						</li>
-						<li onClick={handleFilterKeyChange("digital")} className={handleActiveClass("digital")}>
-							Education (12)
-						</li>
-						<li onClick={handleFilterKeyChange("design")} className={handleActiveClass("design")}>
-							Hackathons (05)
 						</li>
 					</ul>
 				</div>

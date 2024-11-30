@@ -21,12 +21,6 @@ export default function Breadcrumb() {
 					</nav>
 				</div>
 			</div>
-			<div className="fugu-shape8">
-				<img src="/images/shape/shape7.png" alt="" />
-			</div>
-			<div className="fugu-shape9">
-				<img src="/images/shape/shape8.png" alt="" />
-			</div>
 		</div>
 	);
 }

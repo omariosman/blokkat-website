@@ -8,7 +8,7 @@ export default function VisionSection({ title }) {
 					<div className="col-xl-6 col-lg-6 images-holder">
 						<div className="fugu-about-thumb">
 							<img
-								className="wow fadeInLeft"
+								className="wow fadeInLeft vision-img"
 								data-wow-delay=".10s"
 								src="/images/logo/logo-black.svg"
 								alt=""

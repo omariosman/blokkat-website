@@ -84,7 +84,7 @@ export default function TextSliderOne() {
 						<div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/all-img/v2/star.png" alt="" />
-							</div>
+						</div>
 							<h3>Arabic Blockchain Developer Bootcamp Coming Soon ! </h3>
 						</div>
 						<div className="fugu-text-slider-data">

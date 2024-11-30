@@ -4,7 +4,7 @@ export default function AboutSection({ title }) {
 	return (
 		<div className="fugu-about-section">
 			<div className="container">
-				<div className="row">
+				<div className="row">	
 					<div className="col-xl-7 col-lg-6 images-holder">
 						<div className="fugu-about-thumb">
 							<img
