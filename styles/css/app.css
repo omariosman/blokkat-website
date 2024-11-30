@@ -2981,7 +2981,7 @@ footer.fugo--footer-section.white-version .fugo--footer-bottom p {
 	transition: all 0.4s ease-in-out;
 	overflow: hidden;
 	color: var(--gray-800);
-	background-color: var(--warning-500);
+	background-color: var(--success-500);
 }
 .fugu-btn:hover {
 	color: var(--gray-10);
