@@ -7,7 +7,7 @@ export default function HomeTwoHeroSection() {
 		<div className="fugu-hero-section2">
 			<div className="container">
 				<div className="fugu-hero-content fugu-hero-content2">
-					<h1 className="wow fadeInUpX hero-text">Blokkat | بلوكات</h1>
+					<h1 className="wow fadeInUpX hero-text">Blokkat</h1>
 					<h2 className="wow fadeInUpX hero-text" data-wow-delay="0s">
 						An Arabic web3 community
 					</h2>

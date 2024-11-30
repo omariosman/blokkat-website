@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Blokkat | بلوكات</title>
+				<title>Blokkat</title>
 			</Head>
 			<HeroSection />
 			{/*<ClientSliderOne />*/ }
