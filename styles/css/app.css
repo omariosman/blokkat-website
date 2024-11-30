@@ -6907,7 +6907,7 @@ a.fugu-faq-btn:hover {
 	transition: all 0.4s;
 }
 .fugu-social-icon2 ul li a:hover path {
-	fill: var(--warning-500);
+	fill: var(--success-500);
 }
 
 .fugu-social-icon3 {

@@ -22,6 +22,22 @@ export default function TeamSection() {
 										<div className="fugu-social-icon2">
 											<ul>
 												<li>
+													<Link href={"https://www.linkedin.com/in/kareem-kassab/"} target="_blank">
+														<svg
+														width="13"
+														height="11"
+														viewBox="0 0 24 24"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+														>
+														<path
+															d="M4.98 3.5C4.98 4.32843 4.30843 5 3.48 5C2.65157 5 1.98 4.32843 1.98 3.5C1.98 2.67157 2.65157 2 3.48 2C4.30843 2 4.98 2.67157 4.98 3.5ZM1.98 21H5.98V8H1.98V21ZM8.98 8H12.7V9.8475H12.7625C13.3125 8.975 14.4785 8 16.2085 8C20.0575 8 20.98 10.21 20.98 13.9825V21H16.98V14.48C16.98 12.95 16.585 11.98 15.378 11.98C14.255 11.98 13.6785 12.7875 13.45 13.415C13.37 13.625 13.34 13.94 13.34 14.255V21H8.98V8Z"
+															fill="white"
+														/>
+														</svg>
+													</Link>
+												</li>
+												<li>
 													<Link href={"https://x.com/IceKareem7"} target="_blank">
 														<svg
 															width="13"
@@ -81,6 +97,22 @@ export default function TeamSection() {
 										<p><b>Technical Instructor</b></p>
 										<div className="fugu-social-icon2">
 											<ul>
+												<li>
+													<Link href={"https://linkedin.com/in/omariosman"} target="_blank">
+														<svg
+														width="13"
+														height="11"
+														viewBox="0 0 24 24"
+														fill="none"
+														xmlns="http://www.w3.org/2000/svg"
+														>
+														<path
+															d="M4.98 3.5C4.98 4.32843 4.30843 5 3.48 5C2.65157 5 1.98 4.32843 1.98 3.5C1.98 2.67157 2.65157 2 3.48 2C4.30843 2 4.98 2.67157 4.98 3.5ZM1.98 21H5.98V8H1.98V21ZM8.98 8H12.7V9.8475H12.7625C13.3125 8.975 14.4785 8 16.2085 8C20.0575 8 20.98 10.21 20.98 13.9825V21H16.98V14.48C16.98 12.95 16.585 11.98 15.378 11.98C14.255 11.98 13.6785 12.7875 13.45 13.415C13.37 13.625 13.34 13.94 13.34 14.255V21H8.98V8Z"
+															fill="white"
+														/>
+														</svg>
+													</Link>
+												</li>
 												<li>
 													<Link href={"https://x.com/omarMosman23"} target="_blank">
 														<svg
