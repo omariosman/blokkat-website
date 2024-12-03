@@ -4,6 +4,7 @@ import ProjectAboutSection from "../../components/single-portfolio/project-about
 import ProjectDetailsSection from "../../components/single-portfolio/project-details-section";
 import ProjectThumbSection from "../../components/single-portfolio/project-thumb-section";
 import AgendaTable from "../../components/common/tables/agenda-table";
+import ImageCarousel from "../../components/common/carousel/image-carousel";
 import  { eventsMap } from '../../utils/eventsData';
 
 export default function EventPage({ eventData }) {
@@ -12,6 +13,12 @@ export default function EventPage({ eventData }) {
 
   // Use the passed props
   const { title, image, about, city, country, date, event, agenda, venue, attendees, recording } = eventData;
+
+  const carouselImages = [
+    "/images/events/1.png",
+    "/images/events/2.png",
+    "/images/events/3.png",
+  ];
 
   return (
     <>
@@ -45,6 +52,7 @@ export default function EventPage({ eventData }) {
                     <AgendaTable agenda={agenda} />
                   </>
                 )}
+                { /* <ImageCarousel images={carouselImages} /> */ }
               </div>
             </div>
           </div>

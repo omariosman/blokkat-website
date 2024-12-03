@@ -11585,3 +11585,87 @@ circle {
 .vision-img {
 	margin-top: 168px;
 }
+
+
+.carousel-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	overflow: hidden;
+  }
+  
+  .carousel-wrapper {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	position: relative;
+  }
+  
+  .carousel-item {
+	position: absolute;
+	transition: all 0.5s ease-in-out;
+	opacity: 0.5;
+	transform: scale(0.8);
+	cursor: pointer;
+  }
+  
+  .carousel-item img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+	pointer-events: none;
+  }
+  
+  .carousel-item.center {
+	opacity: 1;
+	transform: scale(1);
+	z-index: 3;
+	left: 50%;
+	transform: translateX(-50%) scale(1);
+  }
+  
+  .carousel-item.left {
+	left: 0;
+	transform: translateX(30%) scale(0.9);
+	z-index: 2;
+  }
+  
+  .carousel-item.right {
+	right: 0;
+	transform: translateX(-30%) scale(0.9);
+	z-index: 2;
+  }
+  
+  .carousel-item.hidden {
+	display: none;
+  }
+  
+  .arrow-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	border: none;
+	font-size: 2rem;
+	cursor: pointer;
+	z-index: 4;
+	padding: 10px;
+	border-radius: 50%;
+  }
+  
+  .arrow-button.left-arrow {
+	left: 10px;
+  }
+  
+  .arrow-button.right-arrow {
+	right: 10px;
+  }
+  
+  .arrow-button:hover {
+	background: rgba(0, 0, 0, 0.8);
+  }
+  
