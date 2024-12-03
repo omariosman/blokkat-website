@@ -32,7 +32,7 @@ export default function EventPage({ eventData }) {
               </div>
               <div className="col-lg-10">
                 <h2>{title}</h2>
-                <h3>Event Details:</h3>
+                <h3>Event Details</h3>
                 <ProjectDetailsSection
                   City={city}
                   Country={country}
@@ -48,7 +48,7 @@ export default function EventPage({ eventData }) {
                 {/* Conditionally render the agenda section */}
                 {agenda && (
                   <>
-                    <h3 className="mt-4">Agenda</h3>
+                    <h4 className="mt-4">Agenda</h4>
                     <AgendaTable agenda={agenda} />
                   </>
                 )}
