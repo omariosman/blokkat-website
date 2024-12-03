@@ -1,13 +1,18 @@
 // ProjectDetailsSection.js
-export default function ProjectDetailsSection({ city, country, date, website }) {
+export default function ProjectDetailsSection(props) {
 	return (
 	  <div className="fugu-gallery-data4">
-		<h4>Event Details:</h4>
 		<ul>
-		  <li><span>Country:</span>{country}</li>
-		  <li><span>City:</span>{city}</li>
-		  <li><span>Date:</span>{date}</li>
-		  <li><span>Website Link:</span><a href={website} target="_blank" rel="noopener noreferrer">{website}</a></li>
+		  {Object.entries(props).map(([key, value]) => (
+			<li key={key}>
+			  <span>{key.charAt(0).toUpperCase() + key.slice(1)}:</span>
+			  {key === 'Website' || (key === 'Event' && value != "NA") || (key === 'Recording' && value != "NA") ? (
+				<a href={value} target="_blank" rel="noopener noreferrer">{value}</a>
+			  ) : (
+				value
+			  )}
+			</li>
+		  ))}
 		</ul>
 	  </div>
 	);

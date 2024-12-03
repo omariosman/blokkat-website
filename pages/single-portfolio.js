@@ -1,23 +1,34 @@
-import { useRouter } from "next/router";
+//import { useRouter } from "next/router";
 import BreadcrumbOne from "../components/common/breadcrumb/breadcrumb-one";
 import ProjectAboutSection from "../components/single-portfolio/project-about-section";
 import ProjectDetailsSection from "../components/single-portfolio/project-details-section";
 import ProjectExecutionSection from "../components/single-portfolio/project-execution-section";
 import ProjectThumbSection from "../components/single-portfolio/project-thumb-section";
 
-export default function SinglePortfolio() {
-  const router = useRouter();
-  const {
-    title,
-    image,
-    about,
-    city,
-    country,
-    date,
-    website,
-    agenda
-  } = router.query;
 
+
+export default function SinglePortfolio({ 
+  title,
+  image,
+  about,
+  city,
+  country,
+  date,
+  website,
+  agenda 
+}) {
+  // const router = useRouter();
+  // const {
+  //   title,
+  //   image,
+  //   about,
+  //   city,
+  //   country,
+  //   date,
+  //   website,
+  //   agenda
+  // } = router.query;
+console.log(title, image, about);
   return (
     <>
       <BreadcrumbOne title="Event Details" />

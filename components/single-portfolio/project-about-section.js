@@ -3,7 +3,7 @@
 export default function ProjectAboutSection({ about }) {
 	return (
 		<div className="fugu-gallery-data4">
-			<h2>Event overview:</h2>
+			<h3>Event Overview:</h3>
 			<p>
 				{ about }
 			</p>

@@ -66,6 +66,16 @@ export default function FilterGallaryFour() {
 									</p>
 									<Link 
 										href={{
+											pathname: `/events-gallery/1`,
+										}}
+										legacyBehavior>
+										<a>Discover More</a>
+									</Link>
+
+									{
+										/*
+									<Link 
+										href={{
 											pathname: "/single-portfolio",
 											query: {
 												title: "0xCairo Tech Day II (2nd Edition)",
@@ -92,6 +102,7 @@ export default function FilterGallaryFour() {
 										className="fugu-icon-btn" legacyBehavior>
 											Discover More
 									</Link>
+*/}
 
 								</div>
 							</div>
@@ -110,6 +121,7 @@ export default function FilterGallaryFour() {
 									<p>
 										Global Pizza Party 2024 in Cairo was a slice of pure fun! 🍕 On May 22, blockchain enthusiasts celebrated Bitcoin Pizza Day over the best pizza in Cairo! . With free pizza, backed by Pizza DAO, and lots of Web3 chatter, the event was all about connecting, sharing insights and laughs, and enjoying the community spirit. Great food, great vibes, and plenty of exciting web3 conversation made it an unforgettable night! 🎉
 									</p>
+									{/*
 									<Link 
 									href={{
 										pathname: "/single-portfolio",
@@ -127,7 +139,9 @@ export default function FilterGallaryFour() {
 									className="fugu-icon-btn" 
 									legacyBehavior>
 										Discover More
-									</Link>
+									</Link>									
+									*/ }
+
 								</div>
 							</div>
 						</div>
@@ -146,6 +160,7 @@ export default function FilterGallaryFour() {
 										The <b>AI & Blockchain Community Brunch</b> at The <b>GrEEK Campus</b> in downtown Cairo was a side event during RiseUp Summit 2024, Egypt&apos;s Largest startups & Entrepreneurship summit. Hosted by <b>Arabs in Blockchain</b>, <b>Chainlink</b>, <b>People of Data</b>, and <b>Blokkat</b>, with support from Cartesi, Pravica, and 1inch, it brought together blockchain & entrepreneurship experts and enthusiasts to explore the intersection of AI and blockchain technologies.
 
 										Key talks covered exciting developments in blockchain applications and real-world asset tokenization. The panel discussion, featuring <b>Tarry Singh</b> from DK AI, a very special guest, delved into how these technologies are reshaping startups. The event wrapped up with brunch and networking, fostering collaboration and community growth in Cairo's vibrant entrepreneurship community and its growing web3 community.									</p>
+										{/*
 										<Link 
 										href={{
 											pathname: "/single-portfolio",
@@ -157,25 +172,15 @@ export default function FilterGallaryFour() {
 												country: "Egypt",
 												date: "March 15, 2024",
 												website: "https://example.com",
-												agenda: `- 10:30 - Welcome & Registration
-												- 11:00 - Event opening\n
-- 11:20 - Chainlink, AI and Blockchain : Vision for The Future by Elif Hilal
-- 11:40 - Verifiable Linux in AI x Blockchain by Shaheen Ahmed
-- 12:00 - Real-World Assets Tokenization by Mohamed Abdou
-- 12:30 - Coffee Break
-- 13:00 - Panel Discussion “AI & Blockchain - Redefining the Startups Ecosystem”
-	
-Panelists: Ahmed Tarek (Shark) + Mohamed Abdou (Pravica) + Youssef Kamal (PoD) + Tarry Singh (DK AI) + Mohamed Taysir (Singularity Innovations)
-	
-- 13:45 - Brunch & Networking\n
-- 15:00 - Closing Remarks
-												`
+												agenda: ``
 											}
 										}} 
 										className="fugu-icon-btn" 
 										legacyBehavior>
 											Discover More
 										</Link>
+										
+										*/}
 
 								</div>
 							</div>
@@ -194,6 +199,7 @@ Panelists: Ahmed Tarek (Shark) + Mohamed Abdou (Pravica) + Youssef Kamal (PoD) +
 							<p>
 							0xCairo Tech Day First Edition, organized in collaboration with Arabs in Blockchain, marked one of the earliest Web3 events in Egypt. It was also the first-ever Chainlink event in the country and the beginning of a series of meetups aimed at growing the community. Hosted at the Egyptian Chinese University (ECU), the day was filled with foundational talks, hands-on workshops, and vibrant panel discussions. Attendees explored blockchain fundamentals, cross-chain development (featuring the first CCIP Workshop in Arabic!), and real-world applications, while connecting with peers and industry professionals. The event laid the groundwork for future community-driven initiatives and sparked excitement for Web3’s potential in the region. 🌍✨
 							</p>
+							{/*
 							<Link 
 							href={{
 								pathname: "/single-portfolio",
@@ -205,23 +211,15 @@ Panelists: Ahmed Tarek (Shark) + Mohamed Abdou (Pravica) + Youssef Kamal (PoD) +
 								country: "Egypt",
 								date: "Jan 10, 2024",
 								website: "https://example.com",
-								agenda: `
-								- 9.00 - 10.00 am - Registration opens
-								- 10.00 - 10.30 am - Opening Remarks from Organisers
-								- 10.30 -11.00 am - Blockchain 101, keynote, Kareem Kassab, Omar Osman, Ahmed Akram
-								- 11.00 am - 1.00 pm - Building Cross-Chain with CCIP, workshop, Eman Herawy
-								- 1.00 - 2.00 pm - lunch break
-								- 2.00 - 3.00 pm - Real World Applications of ZK, keynote, Mohammed Mahmoud
-								- 3.00 - 3.30 pm - Web3 Future In Egypt: Opportunities and Challenges, panel discussion, Janna (Moderator) Aya , Moahmed, Ahmed & Yahia
-								- 3.30 - 4.00 pm - The Internet of Ownership: How Blockchain Creates Value For Consumers & Businesses, Hussein Hashish
-								- 4.00 - 5.00 pm - Closing Remarks and Networking	
-								`
+								agenda: ``
 								}
 							}} 
 							className="fugu-icon-btn" 
 							legacyBehavior>
 								Discover More
-							</Link>
+							</Link>							
+							*/}
+
 						</div>
 						</div>
 					</div>
@@ -240,6 +238,8 @@ Panelists: Ahmed Tarek (Shark) + Mohamed Abdou (Pravica) + Youssef Kamal (PoD) +
 						<p>
 						<b>Web3 Wellness Day</b> marked a major milestone as Blokkat's first-ever event, co-organized with <b>Arabs in Blockchain</b> and <b>Yoga DAO</b>. Held at The American University in Cairo, this was one of the earliest on-ground Web3 gatherings in Egypt, designed to introduce university students to the world of blockchain and decentralized technologies. The day kicked off with opening remarks from AUC and featured a series of insightful talks covering introductions to blockchain fundamentals, NFTs, DAOs, the Metaverse, and DeFi. Attendees also enjoyed a yoga session, networking breaks, and lunch, blending wellness with education. This special day set the foundation for community growth and inspired many students to explore Web3's potential.
 						</p>
+						{
+							/*
 						<Link 
 						href={{
 							pathname: "/single-portfolio",
@@ -251,13 +251,16 @@ Panelists: Ahmed Tarek (Shark) + Mohamed Abdou (Pravica) + Youssef Kamal (PoD) +
 							country: "Egypt",
 							date: "April 1, 2024",
 							website: "https://example.com",
-							agenda: "Talks on blockchain, yoga session, networking breaks, and lunch."
+							agenda: ""
 							}
 						}} 
 						className="fugu-icon-btn" 
 						legacyBehavior>
 							Discover More
-						</Link>
+						</Link>							
+							*/
+						}
+
 					</div>
 					</div>
 				</div>
