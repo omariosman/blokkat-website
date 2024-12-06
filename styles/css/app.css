@@ -11677,7 +11677,7 @@ circle {
 	padding-bottom: 30px;
   }
 
-  .partner-img {
-	width: 100px;
-	height: 100px;
+  .partner-img-holder {
+	width: 10rem;
+	height: 10rem;
   }

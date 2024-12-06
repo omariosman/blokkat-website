@@ -62,9 +62,9 @@ export default function ClientSliderOne() {
           <Slider {...settings}>
             {partners.map((partner, index) => (
               <div key={index} className="px-4">
-                <div className="">
+                <div className="partner-img-holder">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={partner} alt={`Partner ${index + 1}`} className="partner-img max-h-full w-auto" />
+                  <img src={partner} alt={`Partner ${index + 1}`} className="max-h-full w-auto" />
                 </div>
               </div>
             ))}
