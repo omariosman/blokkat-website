@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css"
 export default function ClientSliderOne() {
   const settings = {
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
     dots: false,
@@ -40,15 +40,11 @@ export default function ClientSliderOne() {
   }
 
   const partners = [
-    "/images/partners/arabs-in-blockchain.jpg",
-	"/images/partners/chainlink.jpg",
-    "/images/partners/greek-campus.jpg",
-    "/images/partners/arabs-in-blockchain.jpg",
-	"/images/partners/chainlink.jpg",
-    "/images/partners/greek-campus.jpg",
-    "/images/partners/arabs-in-blockchain.jpg",
-	"/images/partners/chainlink.jpg",
-    "/images/partners/greek-campus.jpg",
+    "/images/partners/arabs-in-blockchain.png",
+	"/images/partners/chainlink.svg",
+	"/images/partners/1inch.svg",
+	"/images/partners/storj.svg",
+	//"/images/partners/greek-campus.jpg",
   ]
 
   return (
