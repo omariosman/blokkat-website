@@ -5359,7 +5359,9 @@ a.fugu-app-btn:last-child {
 	position: relative;
 	border-radius: 10px;
 	overflow: hidden;
+	max-height: 406px;
 }
+
 .fugu-team-thumb img {
 	width: 100%;
 	height: 100%;

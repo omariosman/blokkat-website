@@ -6,29 +6,12 @@ export default function FooterHomeOne() {
 		<footer className="fugu-footer-section">
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-4">
+					<div className="col-lg-6">
 						<div className="fugu-textarea">
 							<div className="fugu-footer-logo">
 								<img src="/images/logos/blokkat-logo-sm.svg" alt="" className="light-version-logo" />
 							</div>
-							<p>
-								Blokkat is an Arabic web3 community.
-							</p>
-							<p className="fugu-copywright">
-								&copy; Copyright {new Date().getFullYear()}, All Rights Reserved to Blokkat
-							</p>
-						</div>
-					</div>
-					<div className="col-lg-2 col-md-4 col-sm-4">
-						<div className="fugu-footer-menu">
-							<span>Contact</span>
-							<ul>
-								<li>
-									<Link href="mailto:blokkat.blockchain.ed@gmail.com">blokkat.blockchain.ed@gmail.com</Link>
-								</li>
-							</ul>
-						</div>
-						<div className="fugu-social-icon">
+							<div className="fugu-social-icon">
 							<ul>
 								<li>
 									<Link href={"https://www.youtube.com/@blokkat_xyz?si=KGhR1jYZ97i11A0F"} target="_blank" className="blokkat-social-icon">
@@ -46,6 +29,30 @@ export default function FooterHomeOne() {
 								</li>
 							</ul>
 						</div>
+							<p className="fugu-copywright">
+								&copy; Copyright {new Date().getFullYear()}, All Rights Reserved to Blokkat
+							</p>
+						</div>
+					</div>
+					<div className="col-lg-2 col-md-4 col-sm-4">
+						<div className="fugu-footer-menu">
+							<span>Blokkat</span>
+							<ul>
+								<li>
+									<Link href="/">Home</Link>
+								</li>
+								<li>
+									<Link href="/about-us">About Us</Link>
+								</li>
+								<li>
+									<Link href="/events-gallery">Events Gallery</Link>
+								</li>
+								<li>
+									<Link href="/contact">Contact Us</Link>
+								</li>
+							</ul>
+						</div>
+
 					</div>
 				</div>
 			</div>
