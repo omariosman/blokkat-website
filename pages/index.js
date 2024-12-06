@@ -11,7 +11,7 @@ export default function Home() {
 				<title>Blokkat</title>
 			</Head>
 			<HeroSection />
-			{/*<ClientSliderOne />*/}
+			<ClientSliderOne />
 			<FeatureSectionTwo title="What we do?"/>
 			<FaqAccordionOne />
 		</>

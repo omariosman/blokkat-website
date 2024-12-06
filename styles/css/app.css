@@ -11676,3 +11676,8 @@ circle {
   .heading-partners-2 {
 	padding-bottom: 30px;
   }
+
+  .partner-img {
+	width: 100px;
+	height: 100px;
+  }

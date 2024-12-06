@@ -12,8 +12,8 @@ export default function ClientSliderOne() {
     arrows: false,
     dots: false,
     autoplay: true,
-    autoplaySpeed: 2000,
-    speed: 8000,
+    autoplaySpeed: 3000,
+    speed: 3000,
     cssEase: "linear",
     pauseOnHover: false,
     adaptiveHeight: true,
@@ -64,7 +64,7 @@ export default function ClientSliderOne() {
               <div key={index} className="px-4">
                 <div className="">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={partner} alt={`Partner ${index + 1}`} className="max-h-full w-auto" />
+                  <img src={partner} alt={`Partner ${index + 1}`} className="partner-img max-h-full w-auto" />
                 </div>
               </div>
             ))}
