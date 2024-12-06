@@ -4,7 +4,7 @@ export default function Document() {
 	return (
 		<Html>
 			<Head>
-				<link rel="icon" href="/images/favicon.ico" />
+				<link rel="icon" href="/images/blokkat-favicon.ico" />
 				<link
 					href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Public+Sans:wght@500;600;700;800&display=swap"
 					rel="stylesheet"

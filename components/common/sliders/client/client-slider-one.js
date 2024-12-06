@@ -41,12 +41,12 @@ export default function ClientSliderOne() {
 
   const partners = [
     "/images/partners/arabs-in-blockchain.png",
-	"/images/partners/chainlink.svg",
-	"/images/partners/1inch.svg",
-	"/images/partners/cartesi.svg",
-	"/images/partners/storj.svg",
-	"/images/partners/pizzadao.png",
-	//"/images/partners/greek-campus.jpg",
+    "/images/partners/chainlink.svg",
+    "/images/partners/1inch.svg",
+    "/images/partners/cartesi.svg",
+    "/images/partners/storj.svg",
+    "/images/partners/pizzadao.png",
+    //"/images/partners/greek-campus.jpg",
   ]
 
   return (
