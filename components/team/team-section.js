@@ -12,7 +12,7 @@ export default function TeamSection() {
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="fugu-team-wrap wow fadeInUpX" data-wow-delay="0s">
 							<div className="fugu-team-thumb">
-								<img src="/images/team/kareem.jpg" alt="" />
+								<img src="/images/team/kareem-wave.jpg" alt="" />
 								<div className="fugu-team-data">
 									<h5>
 										<Link href={"single-team"}> Kareem Kassab </Link>
@@ -88,7 +88,7 @@ export default function TeamSection() {
 					<div className="col-xxl-3 col-lg-4 col-md-6">
 						<div className="fugu-team-wrap wow fadeInUpX" data-wow-delay=".10s">
 							<div className="fugu-team-thumb">
-								<img src="/images/team/omar.jpg" alt="" />
+								<img src="/images/team/omar-web3.jpg" alt="" />
 								<div className="fugu-team-data">
 									<h5>
 										<Link href={"single-team"}> Omar Osman </Link>

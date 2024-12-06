@@ -1,54 +1,81 @@
-/* eslint-disable @next/next/no-img-element */
-import Slider from "react-slick";
+"use client"
+
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 export default function ClientSliderOne() {
-	const settings = {
-		infinite: true,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		arrows: false,
-		dots: false,
-		autoplay: true,
-		autoplaySpeed: 3000,
-		speed: 10000,
-		cssEase: "linear",
-		pauseOnHover: false,
-		adaptiveHeight: false,
-		responsive: [
-			{
-				breakpoint: 1199,
-				settings: {
-					slidesToShow: 4,
-				},
-			},
-			{
-				breakpoint: 991,
-				settings: {
-					slidesToShow: 3,
-				},
-			},
-			{
-				breakpoint: 767,
-				settings: {
-					slidesToShow: 2,
-				},
-			},
-		],
-	};
-	return (
-		<div className="fugu-client-section bg-gray-800">
-			<div className="container">
-				<div className="fugu-client-title text-white">
-					<h5>Together, we build, educate, and innovate. <br></br> Meet our previous partners:</h5>
-				</div>
-				<div className="fugu-client-slider">
-					<Slider {...settings}>
-                        <div className="fugu-brand-logo">
-                            <img src="/images/partners/iloveimg-resized/greek-campus.jpg" alt="" />
-                        </div>
-					</Slider>
-				</div>
-			</div>
-		</div>
-	);
+  const settings = {
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 8000,
+    cssEase: "linear",
+    pauseOnHover: false,
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 1199,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  }
+
+  const partners = [
+    "/images/partners/arabs-in-blockchain.jpg",
+	"/images/partners/chainlink.jpg",
+    "/images/partners/greek-campus.jpg",
+    "/images/partners/arabs-in-blockchain.jpg",
+	"/images/partners/chainlink.jpg",
+    "/images/partners/greek-campus.jpg",
+    "/images/partners/arabs-in-blockchain.jpg",
+	"/images/partners/chainlink.jpg",
+    "/images/partners/greek-campus.jpg",
+  ]
+
+  return (
+    <div className="w-full bg-gray-800 py-12">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-8">
+          <h3 className="heading-partners-1 text-white text-xl">
+            Together, we build, educate, and innovate.
+          </h3>
+          <h4 className="heading-partners-2 text-white text-xl">
+            Meet our previous partners
+          </h4>
+        </div>
+        <div className="overflow-hidden">
+          <Slider {...settings}>
+            {partners.map((partner, index) => (
+              <div key={index} className="px-4">
+                <div className="">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={partner} alt={`Partner ${index + 1}`} className="max-h-full w-auto" />
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+    </div>
+  )
 }
+
