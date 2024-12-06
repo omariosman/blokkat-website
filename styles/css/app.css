@@ -11670,14 +11670,26 @@ circle {
   }
   
   .heading-partners-1 {
-	padding: 50px 0 30px 0;
+	padding: 50px 0 0 0;
   }
 
   .heading-partners-2 {
 	padding-bottom: 30px;
   }
 
-  .partner-img-holder {
+.partner-img-holder {
 	width: 10rem;
 	height: 10rem;
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	height: 150px; /* Set a consistent height */
+	overflow: hidden; /* Prevent content overflow */
+}
+
+.partner-img-holder img {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain; /* Ensure the entire image fits without distortion */
   }
+  
