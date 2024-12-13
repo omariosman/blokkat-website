@@ -1,7 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-const ImageCarousel = ({ images }) => {
-  const [mainImage, setMainImage] = useState(images[0]);
+const ImageCarousel = ({ basePath }) => {
+  const [images, setImages] = useState([]);
+  const [mainImage, setMainImage] = useState("");
+
+  useEffect(() => {
+    const loadImages = async () => {
+      try {
+        const response = await fetch(`/api/images?basePath=${basePath}`);
+        const imageList = await response.json();
+        const fetchedImages = imageList.map((image) => `${basePath}/${image}`);
+
+        if (fetchedImages.length > 0) {
+          setImages(fetchedImages);
+          //const initialIdx = Math.floor(fetchedImages.length / 2); 
+          setMainImage(fetchedImages[0]);
+        }
+      } catch (error) {
+        console.error("Error loading images:", error);
+      }
+    };
+
+    loadImages();
+  }, [basePath]);
 
   const handleImageClick = (image) => {
     setMainImage(image);
@@ -11,11 +32,13 @@ const ImageCarousel = ({ images }) => {
     <div className="carousel-container">
       {/* Main Image */}
       <div className="main-image-wrapper">
-        <img
-          src={mainImage}
-          alt="Main"
-          className="main-image"
-        />
+        {mainImage && (
+          <img
+            src={mainImage}
+            alt="Main"
+            className="main-image"
+          />
+        )}
       </div>
 
       {/* Thumbnail Images */}
@@ -31,7 +54,6 @@ const ImageCarousel = ({ images }) => {
         ))}
       </div>
     </div>
-
   );
 };
 

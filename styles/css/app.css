@@ -11694,22 +11694,37 @@ circle {
 	max-width: 100%;
 	object-fit: contain; /* Ensure the entire image fits without distortion */
   }
-  
+
+
+
+
+
+
+
+
+
+
   .carousel-container {
-	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 100%;
+	max-width: 1200px; /* Ensure it fits within the 12-grid layout */
+	margin: 0 auto; /* Center the container */
   }
   
   .main-image-wrapper {
 	margin-bottom: 16px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
   }
   
   .main-image {
-	width: 100%;
+	max-width: 100%; /* Prevents the image from exceeding the container width */
+	max-height: 500px; /* Limit the height for large images */
 	border-radius: 8px;
-	object-fit: cover;
+	object-fit: contain; /* Maintains aspect ratio */
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
@@ -11717,13 +11732,14 @@ circle {
 	display: flex;
 	gap: 8px;
 	overflow-x: auto;
+	width: 100%;
 	scrollbar-width: none; /* For Firefox */
-	-ms-overflow-style: none; /* For Internet Explorer and Edge */  
+	-ms-overflow-style: none; /* For Internet Explorer and Edge */
   }
   
   .thumbnail-image {
-	width: 180px;
-	height: 180px;
+	width: 80px;
+	height: 80px;
 	border-radius: 4px;
 	object-fit: cover;
 	cursor: pointer;

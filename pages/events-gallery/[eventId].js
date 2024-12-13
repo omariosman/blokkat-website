@@ -14,12 +14,6 @@ export default function EventPage({ eventData }) {
   // Use the passed props
   const { title, image, about, city, country, date, event, agenda, venue, attendees, recording } = eventData;
 
-  const carouselImages = [
-    "/images/events/1.png",
-    "/images/events/2.png",
-    "/images/events/3.png",
-  ];
-
   return (
     <>
       <BreadcrumbOne title="Event Details" />
@@ -48,7 +42,7 @@ export default function EventPage({ eventData }) {
                 </div>
                 {/* Render the component here */}
                 
-                <ImageCarousel images={carouselImages} />
+                <ImageCarousel basePath={`/images/events-gallery-pics/${eventId}`} />
                 
                 <div className="col-lg-10">
 
