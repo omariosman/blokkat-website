@@ -11595,7 +11595,7 @@ circle {
 	justify-content: center;
 	position: relative;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 40px;
 	overflow: hidden;
   }
   
@@ -11693,5 +11693,50 @@ circle {
 	max-height: 100%;
 	max-width: 100%;
 	object-fit: contain; /* Ensure the entire image fits without distortion */
+  }
+  
+  .carousel-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .main-image-wrapper {
+	margin-bottom: 16px;
+  }
+  
+  .main-image {
+	width: 100%;
+	border-radius: 8px;
+	object-fit: cover;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thumbnail-wrapper {
+	display: flex;
+	gap: 8px;
+	overflow-x: auto;
+	scrollbar-width: none; /* For Firefox */
+	-ms-overflow-style: none; /* For Internet Explorer and Edge */  
+  }
+  
+  .thumbnail-image {
+	width: 180px;
+	height: 180px;
+	border-radius: 4px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .thumbnail-image:hover {
+	transform: scale(1.1);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .active-thumbnail {
+	border: 2px solid #0070f3;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   }
   
