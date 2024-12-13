@@ -11730,6 +11730,8 @@ circle {
   
   .thumbnail-wrapper {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	gap: 8px;
 	overflow-x: auto;
 	width: 100%;
