@@ -47,9 +47,9 @@ export default function EventPage({ eventData }) {
                 <ProjectAboutSection about={about} />
                 </div>
                 {/* Render the component here */}
-                <div className="col-lg-12">
-                  <ImageCarousel images={carouselImages} />
-                </div>
+                
+                <ImageCarousel images={carouselImages} />
+                
                 <div className="col-lg-10">
 
                 {/* Conditionally render the agenda section */}
