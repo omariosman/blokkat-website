@@ -87,4 +87,3 @@ const recipients = [
 }
 
 export default allowCors(handler);
-   
