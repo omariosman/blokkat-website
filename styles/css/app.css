@@ -28,7 +28,7 @@
 	--fs-xs-lineheight: 22px;
 	--fs-xss-12: 12px;
 	--fs-xss-lineheight: 20px;
-	--blokkat-branding: #007dff;
+	--blokkat-branding: #FFF;
 }
 
 *,
@@ -11758,4 +11758,3 @@ circle {
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   }
 
-  
