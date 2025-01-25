@@ -2,12 +2,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-export default function FeatureOneSection() {
+export default function FeatureOneSection({title}) {
 	return (
 		<div className="section bg-warning-200 fugu-section-padding3">
 			<div className="container">
 				<div className="fugu-section-title">
-					<h2>Our Values</h2>
+					<h2>{title}</h2>
 				</div>
 				<div className="row fugu-iconbox-container">
 					<div className="col-lg-4 col-md-6">

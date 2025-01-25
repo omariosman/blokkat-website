@@ -20,7 +20,7 @@ export default function AboutUs() {
 			<Breadcrumb />
 			<AboutSection title="Our story" />
 			<VisionSection title="Our vision" />
-			<FeatureOneSection />
+			<FeatureOneSection title="Our Values" />
 			<FeatureSectionTwo title="What we do?"/>
 			<TeamSection />
 			<FaqAccordionOne />

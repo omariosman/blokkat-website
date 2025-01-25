@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-export default function AboutSection({ title }) {
+export default function AboutSection({ title, content="Salam Alaykum! I’m Kareem Kassab, Blokkat’s FounderI started blokkat as the AUC blockchain community. I used to share blockchain knowledge with a few colleagues, only 2 were interested :D, and I used to teach only 4 students what I self studied during the assembly hour in my university in a random empty class every time! After Devcon 6, I came back with a vision to build builders and grow the community in Egypt and MENA and… Here we are!", resourceLink }) {
 	return (
 		<div className="fugu-about-section">
 			<div className="container">
@@ -27,9 +27,18 @@ export default function AboutSection({ title }) {
 						<div className="fugu-default-content">
 							<h2>{title}</h2>
 							<p>
-							Salam Alaykum! I’m Kareem Kassab, Blokkat’s Founder
-							I started blokkat as the AUC blockchain community. I used to share blockchain knowledge with a few colleagues, only 2 were interested :D, and I used to teach only 4 students what I self studied during the assembly hour in my university in a random empty class every time! After Devcon 6, I came back with a vision to build builders and grow the community in Egypt and MENA and… Here we are ! 
+								{ content }
 							</p>
+							{resourceLink && (
+								<a 
+									href={resourceLink} 
+									target="_blank" 
+									rel="noopener noreferrer" 
+									className="btn btn-primary mt-3"
+								>
+									Watch on YouTube
+								</a>
+							)}
 						</div>
 					</div>
 				</div>

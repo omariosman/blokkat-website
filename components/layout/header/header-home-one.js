@@ -53,6 +53,8 @@ export default function HeaderHomeOne() {
 								<CustomNavItem navItemText="About Us" path="/about-us" />
 								<CustomNavItem navItemText="Events Gallery" path="/events-gallery" />
 								<CustomNavItem navItemText="Contact Us" path="/contact" />
+								<CustomNavItem navItemText="Learn" path="/learn" />
+								<CustomNavItem navItemText="Bootcamp" path="/bootcamp" />
 							</Navbar>
 							/*
 							<Navbar>

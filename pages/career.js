@@ -10,7 +10,7 @@ export default function Career() {
 		<>
 			<BreadcrumbOne title="Careers" />
 			<SectionOne />
-			<FeatureOneSection />
+			<FeatureOneSection title="Our Values" />
 			<JobPositionSection />
 			<CounterOneSection />
 			<VideoSectionOne marginBottom />
