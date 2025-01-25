@@ -68,7 +68,7 @@ export default function FooterHomeOne() {
 								</li>
 								<li>
 									<Link href="/learn">Learn</Link>
-								</li>								
+								</li>					
 								<li>
 									<Link href="/bootcamp">Bootcamp</Link>
 								</li>
